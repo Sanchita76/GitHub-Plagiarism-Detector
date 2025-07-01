@@ -6,17 +6,6 @@
    <img src="https://github.com/user-attachments/assets/99f6d6fa-54db-4b22-89b8-6b3c0727f9ef" width="250" height="200">
 </div>
 
-1. Checks commit history, author names, repo tree hashes.
-
-Searches similar repositories using GitHub API + heuristics.
-
-Code Diff Comparison:
-
-Side-by-side file comparisons with GitHub-like syntax highlighting.
-
-Marks insertions (green) and deletions (red).
-
-
 ## Working Procedure
 <div align=""> <img src="https://github.com/user-attachments/assets/a71baab4-305f-4cd9-a573-4d565215204d" width="220" height="320"> </div>
 
