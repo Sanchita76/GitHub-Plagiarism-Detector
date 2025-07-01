@@ -1,4 +1,4 @@
-<h1 align="center"> Github Plagiarism Detector <img src="https://github.com/user-attachments/assets/b02b7b42-3f82-4ea4-a292-185a96f0d885" width="50" height="40"> <img src="https://github.com/user-attachments/assets/318a9e54-f3a9-4d39-b6a7-ec1cf82878d8" width="50" height="40">
+<h1 align="center"> Github Plagiarism Detector <img src="https://github.com/user-attachments/assets/b02b7b42-3f82-4ea4-a292-185a96f0d885" width="50" height="40"> <img src="https://github.com/user-attachments/assets/318a9e54-f3a9-4d39-b6a7-ec1cf82878d8" width="50" height="40"> (Work in Progress)
 </h1>
 
 </div>
