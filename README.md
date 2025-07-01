@@ -6,6 +6,17 @@
    <img src="https://github.com/user-attachments/assets/99f6d6fa-54db-4b22-89b8-6b3c0727f9ef" width="250" height="200">
 </div>
 
+1. Checks commit history, author names, repo tree hashes.
+
+Searches similar repositories using GitHub API + heuristics.
+
+Code Diff Comparison:
+
+Side-by-side file comparisons with GitHub-like syntax highlighting.
+
+Marks insertions (green) and deletions (red).
+
+
 ## Working Procedure
 <div align=""> <img src="https://github.com/user-attachments/assets/a71baab4-305f-4cd9-a573-4d565215204d" width="220" height="320"> </div>
 
@@ -32,7 +43,7 @@
 
 - Diff2Html: For rendering code diffs (in DiffViewer.jsx).<br>
 
-### Custom Output
+### Custom UI Output
 <img src="https://github.com/user-attachments/assets/178076d2-d00d-4ff9-ad64-327942b95619" width="600" height="350">
 <img src="https://github.com/user-attachments/assets/9f66d79d-2eaf-4829-b5d2-c164742137b5" width="220" height="350">
 
