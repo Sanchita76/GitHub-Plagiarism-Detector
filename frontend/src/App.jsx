@@ -15,7 +15,7 @@ export default function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1 className="text-center text-3xl font-bold">GitHub Plagiarism Detection System</h1>
+      <h1 className="text-center text-3xl font-bold">GitHub Repository Plagiarism Detector</h1>
       <Home />
     </>
   );
