@@ -1,7 +1,7 @@
 import requests, os, shutil
 from git import Repo
 from urllib.parse import quote
-
+from dotenv import load_dotenv
 def search_code_snippets(path):
     code_sample = ""
     for root, _, files in os.walk(path):
@@ -13,6 +13,8 @@ def search_code_snippets(path):
     return code_sample[:300]
 
 def find_similar_repo(user_repo_path):
+    load_dotenv()
+
     headers = {"Authorization": f"token {os.getenv('GITHUB_TOKEN')}", "Accept": "application/vnd.github+json"}
     query = quote(search_code_snippets(user_repo_path))
     url = f"https://api.github.com/search/code?q={query}+in:file+language:python"

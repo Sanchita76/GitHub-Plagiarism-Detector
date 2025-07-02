@@ -8,9 +8,10 @@ export default function Home() {
 
   async function handleSubmit(e) {
     e.preventDefault();
-    const form = new FormData();
-    form.append('repo_url', url);
-    const r = await axios.post('http://localhost:8000/analyze', form);
+    const r = await axios.post('http://localhost:8000/analyze', {
+  repo_url: url,
+});
+
     setRes(r.data);
   }
 

@@ -1,5 +1,7 @@
 import openai, os, numpy as np
-
+from dotenv import load_dotenv
+import os
+load_dotenv()  # ✅ This must happen before calling os.getenv
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def get_embedding(text):

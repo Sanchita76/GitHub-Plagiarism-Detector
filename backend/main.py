@@ -1,11 +1,17 @@
 from fastapi import FastAPI, Form
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from github_utils import clone_and_get_commits
 from github_search import find_similar_repo
 from diff_utils import get_diffs
-from ai_similarity import compute_similarity_score
-import os
+from pydantic import BaseModel
 
+from ai_similarity import compute_similarity_score
+from dotenv import load_dotenv
+load_dotenv()
+
+import os
+print("OPENAI KEY:", os.getenv("OPENAI_API_KEY"))
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
